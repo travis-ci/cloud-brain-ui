@@ -27,7 +27,7 @@ http {
 	client_body_timeout 5;
 
 	upstream app_server {
-		server unix:/tmp/nginx.socket fail_timeout=0;
+		server http://127.0.0.1:<%= ENV["PORT"] + 1 %> fail_timeout=0;
  	}
 
 	server {
