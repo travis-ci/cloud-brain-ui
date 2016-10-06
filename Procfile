@@ -1,1 +1,1 @@
-web: $GOPATH/bin/start-stunnel bash -c '-redis $REDIS_URL -ns cloud-brain:worker -listen :80'
+web: $GOPATH/bin/start-stunnel bash -c 'workwebui -redis $REDIS_URL -ns cloud-brain:worker -listen :80'
