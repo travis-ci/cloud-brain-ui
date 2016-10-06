@@ -1,1 +1,1 @@
-web: start-nginx -f start-stunnel PORT=5000 ./run-workwebui.sh
+web: start-nginx -f start-stunnel ./run-workwebui.sh
