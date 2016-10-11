@@ -1,1 +1,1 @@
-web: start-stunnel ./run-workwebui.sh
+web: ./start-sso -f start-stunnel ./run-workwebui.sh
