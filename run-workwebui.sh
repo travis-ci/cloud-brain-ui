@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sso -upstream 'http://127.0.0.1:5000' \
+sso -listen "127.0.0.1:$PORT" \
+    -upstream 'http://127.0.0.1:5000' \
     -app "$SSO_APP_PUBLIC_URL" \
     -encryption-key "$SSO_ENCRYPTION_KEY" \
     -csrf-key "$SSO_CSRF_KEY" \
