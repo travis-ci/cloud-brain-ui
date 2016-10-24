@@ -1,5 +1,5 @@
 heroku:
-	wget -q https://github.com/travis-ci/sso/releases/download/v0.1.1/sso
+	wget -q https://github.com/travis-ci/sso/releases/download/v0.1.2/sso
 	chmod +x sso
 	mv sso bin
 
